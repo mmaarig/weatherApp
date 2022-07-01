@@ -1,4 +1,5 @@
 let getWeatherData = () => {
+
     let city = document.getElementById("city").value;
 
     axios.get(`https://api.weatherapi.com/v1/current.json?key=b52a1217af194e27bfa155504223006&q=${city}`)
